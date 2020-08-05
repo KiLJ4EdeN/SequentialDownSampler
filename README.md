@@ -14,12 +14,22 @@ Sequential down sampling implementation for imbalanced data classification.
 ## Import the SequentialDownSampler Class and Create an Instance with Desired Settings.
 ```python
 from SequentialDownSampler import SequentialDownSampler
+import numpy as np
+
+# create a fake dataset.
+
+X = np.random.rand(1000, 224, 224, 3)
+Y = np.random.randint(0, 2, size=(1000))
+
+# initiate the downsampler selecting the class to downsample and the ratio.
 seqds = SequentialDownSampler(X, Y, dclass=1, ratio=3)
 ```
 
 
 ## Perform Downsampling on your Dataset.
 ```python
+
+# perform downsampling.
 X, Y = seqds.downsample()
 
 print(X.shape)
