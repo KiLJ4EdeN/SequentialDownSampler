@@ -1,5 +1,5 @@
 # SequentialDownSampler
-Sequential down sample implementation for imbalanced data classification.
+Sequential down sampling implementation for imbalanced data classification.
 
 [![License](https://img.shields.io/github/license/KiLJ4EdeN/SequentialDownSampler)](https://img.shields.io/github/license/KiLJ4EdeN/SequentialDownSampler) [![Version](https://img.shields.io/github/v/tag/KiLJ4EdeN/SequentialDownSampler)](https://img.shields.io/github/v/tag/KiLJ4EdeN/SequentialDownSampler) [![Code size](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/SequentialDownSampler)](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/SequentialDownSampler) [![Repo size](https://img.shields.io/github/repo-size/KiLJ4EdeN/SequentialDownSampler)](https://img.shields.io/github/repo-size/KiLJ4EdeN/SequentialDownSampler) [![Issue open](https://img.shields.io/github/issues/KiLJ4EdeN/SequentialDownSampler)](https://img.shields.io/github/issues/KiLJ4EdeN/SequentialDownSampler)
 ![Issue closed](https://img.shields.io/github/issues-closed/KiLJ4EdeN/SequentialDownSampler)
