@@ -17,7 +17,6 @@ from SequentialDownSampler import SequentialDownSampler
 import numpy as np
 
 # create a fake dataset.
-
 X = np.random.rand(1000, 224, 224, 3)
 Y = np.random.randint(0, 2, size=(1000))
 
